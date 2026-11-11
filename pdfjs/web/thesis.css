@@ -1,0 +1,17 @@
+#editorModeButtons,
+#editorModeSeparator,
+#downloadButton,
+#secondaryDownload,
+#secondaryOpenFile {
+  display: none !important;
+}
+
+#thesisDownload::before {
+  -webkit-mask-image: var(--toolbarButton-download-icon);
+  mask-image: var(--toolbarButton-download-icon);
+}
+
+#thesisDownload:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -3px;
+}
